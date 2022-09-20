@@ -35,7 +35,7 @@ header img {
 }
 
 .encabezado {
-    background: url(/img/header.jpg);
+    background: url(./img/header.jpg);
     height: 60vh;
     background-size: cover;
     color: #fff;
