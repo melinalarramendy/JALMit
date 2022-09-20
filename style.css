@@ -1,0 +1,138 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header img {
+    width: 35%;
+}
+
+.menu {
+    margin-right: 1.5%;
+}
+
+.menu-items {
+    text-decoration: none;
+    padding: 5px;
+    vertical-align: top;
+    align-items: center;
+    color: green;
+    transition: 300ms;
+}
+
+.menu-items:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.encabezado {
+    background: url(/img/header.jpg);
+    height: 60vh;
+    background-size: cover;
+    color: #fff;
+}
+
+.contenido-encabezado {
+    margin-left: 58%;
+    padding-top: 5%;
+}
+
+.contenido-encabezado h3 {
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+.contenido-encabezado h1 {
+    padding-bottom: 10px;
+}
+
+.contenido-encabezado p {
+    font-weight: 300;
+}
+    
+
+.botones-encabezado {
+    display: flex;
+    vertical-align: top;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5% 15%;
+}
+
+.botones-encabezado button {
+    background: rgb(76, 196, 76);
+    margin-right: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 300ms;
+    border: none;
+    border-radius: 2px;
+}
+
+.botones-encabezado button:hover {
+    font-weight: 700;
+    border: 2px solid rgb(0, 92, 0);  
+}
+
+.contenido-servicios {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contenido-servicios h1 {
+    padding: 30px 0;
+}
+
+.item-servicio {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+}
+
+.item-servicio img {
+    height: 50px;
+}
+
+.item-servicio h3 {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.item-servicio p {
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+footer {
+    background: #000;
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 35%;
+}
+
+.menu-footer {
+    margin-right: 1.5%;
+}
+
