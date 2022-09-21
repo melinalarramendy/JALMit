@@ -118,6 +118,42 @@ header img {
     font-size: 15px;
 }
 
+.nosotros-home {
+    background: url(./img/carrusel3.jpeg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.nosotros-home h1 {
+    padding: 5% 1.5% 3% 6.5%;
+}
+
+
+
+.nosotros-home button {
+    margin: 0 10%;
+    padding: 10px 6px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    transition: 300ms;
+}
+
+.nosotros-home button:hover {
+    font-weight: 700;
+    border: 2px solid #000;
+    background: rgb(76, 196, 76);
+}
+
+.blog {
+    padding: 30px 0;
+}
+
+.blog h1 {
+    text-align: center;
+}
 
 
 footer {
