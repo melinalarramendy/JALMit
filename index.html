@@ -16,9 +16,8 @@
         <nav class="menu">
             <a href="/index.html" class="menu-items">Home</a>
             <a href="#servicios" class="menu-items">Servicios</a>
-            <a href="/nosotros.html" class="menu-items">Nosotros</a>  
-            <a href="#blog" class="menu-items">Blog</a>
-            <a href="" class="menu-items">Contacto</a>
+            <a href="#nosotros" class="menu-items">Nosotros</a>  
+            <a href="#contacto" class="menu-items">Contacto</a>
         </nav>
     </header>
 
@@ -107,13 +106,46 @@
         </div>
     </main>
 
-    <section class="nosotros-home">
-        <h1>Acerca de nosotros</h1>
-        <button onclick="location.href='./nosotros.html'">Conocenos</button>
+    <section class="separador-home">
+        
     </section>
 
-    <section class="blog" id="blog">
-        <h1>Nuestro blog</h1>
+    <section class="nosotros-home" id="nosotros">
+        <div>
+            <h1>Sobre nosotros</h1>
+            <ul class="lista-nosotros">
+                <li class="item-nosotros">
+                    <img src="./img/icono-mision.png" alt="">
+                    <h2>Misión</h2>
+                    <p>Somos una consultora destinada al "Desarrollo Web" para ayudar a que las empresas se impulsen al mundo del Internet, a través de una tecnología eficaz, confiable y de alta calidad.</p>
+                </li>
+                <li class="item-nosotros">
+                    <img src="./img/icono-vision.png" alt="">
+                    <h2>Visión</h2>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contacto" id="conctacto">
+        <div class="titulo-contacto">
+            <h1>Contactanos</h1>
+        </div>
+
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" class="input-general">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-general">
+            <label for="tel">Telefono</label>
+            <input type="tel" id="tel" class="input-general">
+            <label class="checkbox">
+                <input type="checkbox" checked>
+                "¿Te gustaría recibir novedades de JALM it?"
+            </label>
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+        
     </section>
 
     <footer>
@@ -121,9 +153,8 @@
         <nav class="menu-footer">
             <a href="/index.html" class="menu-items">Home</a>
             <a href="#servicios" class="menu-items">Servicios</a>
-            <a href="/nosotros.html" class="menu-items">Nosotros</a>  
-            <a href="#blog" class="menu-items">Blog</a>
-            <a href="" class="menu-items">Contacto</a>
+            <a href="#nosotros" class="menu-items">Nosotros</a>  
+            <a href="#contacto" class="menu-items">Contacto</a>
         </nav>
     </footer>
 
