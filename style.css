@@ -226,3 +226,20 @@ footer img {
     margin-right: 1.5%;
 }
 
+@media screen and (max-width: 480px) {
+    h1,h2 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    header, .contenido-encabezado, .contenido-servicios, .nosotros-home, .contacto {
+        width: auto;
+    }
+
+    .lista-nosotros {
+        width: 100%;
+    }
+}
