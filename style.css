@@ -154,6 +154,10 @@ header img {
     border-radius: 5px;
 }
 
+.lista-nosotros li:hover {
+    border: 2px solid green;
+}
+
 .item-nosotros img {
     width: 40%;
     padding-bottom: 10px;
