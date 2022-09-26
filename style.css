@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -234,7 +239,7 @@ header img {
 }
 
 .items-perfiles:hover h2 {
-    color:rgb(0, 92, 0);
+    color:green;
 }
 
 .items-perfiles p {
@@ -244,8 +249,10 @@ header img {
 
 .lista-social {
     list-style: none;
+    padding: 0;
     transform: translateY(200%);
     display: flex;
+    align-items: center;
     justify-content: space-around;
     width: 100%;
     opacity: 0;
@@ -326,7 +333,7 @@ form label {
     border-radius: 16px;
     border: 1px solid transparent;
     color: #FFFFFF;
-    background-color: #1DC9A0;
+    background-color: green;
     font-size: 16px;
     letter-spacing: 1px;
     transition: all 0.15s linear;
@@ -335,15 +342,15 @@ form label {
 
 .enviar:hover {
     background-color: rgba(29, 201, 160, 0.08);
-    border-color: #1DC9A0;
-    color: #1DC9A0;
+    border-color: green;
+    color: green;
     transform: translateY(-5px) scale(1.05);
 }
 
 .enviar:active {
     background-color: transparent;
-    border-color: #1DC9A0;
-    color: #1DC9A0;
+    border-color: green;
+    color: green;
     transform: translateY(5px) scale(0.95);
 }
 
