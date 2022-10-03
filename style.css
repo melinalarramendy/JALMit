@@ -18,6 +18,7 @@ header {
     vertical-align: top;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
 }
 
 .container {
@@ -118,7 +119,11 @@ header img {
 
 .botones-encabezado button:hover:before {
     transform: translateX(15em);
-}   
+}  
+
+.servicios {
+    background: #FFFFFF;
+}
 
 .contenido-servicios {
     text-align: center;
@@ -166,6 +171,7 @@ header img {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 40px;
+    background-color: #FFFFFF;
 }
 
 .nosotros-home h1{
@@ -289,6 +295,7 @@ header img {
 .contacto {
     padding: 0px 0 40px;
     width: 100%;
+    background: #FFFFFF;
 }
 
 .titulo-contacto {
