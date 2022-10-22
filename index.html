@@ -4,139 +4,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./img/logoFooter.png">
     <link rel="stylesheet" href="style.css">
-    <title>JALM IT - HOME</title>
+    <title>Consultora Jalm It</title>
 </head>
 <body>
     <header>
-        
-        <a href="https://melinalarramendy.github.io/JALMit/"><img src="./img/logoJALMit.png" alt=""></a>
-        <nav class="menu">
-            <a href="https://melinalarramendy.github.io/JALMit/" class="menu-items">Home</a>
-            <a href="#servicios" class="menu-items">Servicios</a>
-            <a href="#nosotros" class="menu-items">Nosotros</a>  
-            <a href="#contacto" class="menu-items">Contacto</a>
-        </nav>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
 
+            <div class="container ">
+                
+                <a class="navbar-brand text-white" href="#">
+                    <img src="./img/logoFooter.png" alt="Logo" width="150" class="d-inline-block">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+              
+        </nav>
     </header>
 
-    <section class="encabezado" id="encabezado">
 
-        
-        <div class="contenido-encabezado">
-            <h3>Desarrollando webs para el crecimiento de su negocio</h3>
-            <h1>Análisis y desarrollo web para empresas</h1>
-            <p>Diseñamos y desarrollamos páginas a medida según las necesidades de cada cliente </p> 
+    <section id="encabezado">
+        <div class="container py-4">
+            <div class="">
+                <div class="d-flex align-items-center">
+                    <img src="./img/desarrollo.jpg" alt=""  class="w-50">
+                    <div class="ms-5 contenido-encabezado">
+                        <p class="text-success text-center">5 años de experiencia</p>
+                        <h3 class="fs-4 text-center">Desarrollando webs para el crecimiento de su negocio</h3>
+                        <h1 class="fw-bold text-center">Análisis y desarrollo web para empresas</h1>
+                        <p class="text-secondary text-center">Diseñamos y desarrollamos páginas a medida según las necesidades de cada cliente </p>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-success me-1">Servicios</button>
+                            <button type="button" class="btn btn-outline-success">Contacto</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+
+                 
+            </div>
+
         </div>
 
-        <div class="botones-encabezado">
-            <button onclick="location.href='#servicios'">Servicios</button>
-            <button onclick="location.href='#conctacto'">Contacto</button>
-        </div>  
-        
-           
     </section>
 
-    <main class="servicios" id="servicios">
+    <main>
+        <div class="bg-dark">
+            <div class="container py-5">
+                <h1 class="text-center text-white pb-2">Servicios</h1>
+                <div class=" row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 d-flex justify-content-around">
+                    <div class="col">
+                        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header d-flex justify-content-center"><img src="./img/icono-consultoria.png" alt="" class="w-50"></div>
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Consultoría</h5>
+                              <p class="card-text">La consultoría digital se basa en ofrecerle al cliente orientacion y servicios para alcanzar el logro de los objetivos de un proyecto en Internet. <br>El trabajo de una consultoría es analizar las metas del cliente, el mercado, el público objetivo, tiempo y dinero disponible, tieniendo en cuenta todos los factores proponiendo soluciones.
 
-        <div class="container">
-           <div class="contenido-servicios">
-            <h1>Servicios</h1>
-            <ul class="lista-servicios">
-                <li class="item-servicio">
-                    <img src="./img/icono-consultoria.png" alt="">
-                    <h3>CONSULTORÍA</h3>
-                    <p>La consultoría digital se basa en ofrecerle al cliente orientacion y servicios para alcanzar el logro de los objetivos de un proyecto en Internet.</p>
-                    <p>El trabajo de una consultoría es analizar las metas del cliente, el mercado, el público objetivo, tiempo y dinero disponible, tieniendo en cuenta todos los factores proponiendo soluciones.</p>
-                </li>
-                <li class="item-servicio">
-                    <img src="./img/icono-marketing.png" alt="">
-                    <h3>MARKETING DIGITAL</h3>
-                    <p>El marketing digital es la aplicaicon de todas las estrategias de comercialización llevadas a cabo en los medios digitales. Cualquier promoción que se publicite tiene un retorno de inversion medible. Nosotros contamos con los siguientes servicios para mantener y captar nuevos clientes:</p>
-                    <ul class="lista-marketing">
-                        <li>
-                            <p>Campañas digitales integrales.</p> 
-                        </li>
-                        <li>
-                            <p>Campañas en buscadores con Google Ads.</p>
-                        </li>
-                        <li>
-                            <p>Email marketing.</p>
-                        </li>
-                        <li>
-                            <p>Análisis y reportes.</p>
-                        </li>
-                    </ul>
+                              </p>
+                            </div>
+                        </div>
+                    </div>
 
-                </li>
-                <li class="item-servicio">
-                    <img src="./img/icono-desarrollo.png" alt="">
-                    <h3>DESARROLLO</h3>
-                    <p>Ofrecemos diseños profesionales más desarrollo de canales digitales para promocionar correctamente sus productos y servicios: </p>
-                    <ul class="lista-desarrollo">
-                        <li>
-                            <p>Diseño y desarrollo de páginas web</p>
-                        </li>
-                        <li>
-                            <p>Ecommerce con Mercadopago o Paypal</p>
-                        </li>
-                        <li>
-                            <p>Landing Pages</p>
-                        </li>   
-                        <li>
-                            <p>Outsourcing para agencias de publicidad</p> 
-                        </li>
-                    </ul>
-                </li>
-                <li class="item-servicio">
-                    <img src="./img/icono-hosting.png" alt="">
-                    <h3>HOSTING</h3>
-                    <p>Brindamos un exelente servicio de hosting y más:</p>
-                    <ul class="lista-hosting">
-                        <li>
-                            <p>Base de datos ilimitados.</p>
-                        </li>
-                        <li>
-                            <p>cPanel, PHP y MySQL.</p>
-                        </li>
-                        <li>
-                            <p>Backups mensuales.</p>
-                        </li>
-                        <li>
-                            <p>Soporte técnico personalizado.</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-         </div> 
-        
+                    <div class="col">
+                        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header d-flex justify-content-center">
+                                <img src="./img/icono-marketing.png" class="w-50" alt="">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Marketinkg digital</h5>
+                              <p class="card-text">El marketing digital es la aplicaicon de todas las estrategias de comercialización llevadas a cabo en los medios digitales. Cualquier promoción que se publicite tiene un retorno de inversion medible. Nosotros contamos con los siguientes servicios para mantener y captar nuevos clientes:</p>
+                              <p> 🟢 Campañas digitales integrales. <br>🟢 Campañas en buscadores con Google Ads. <br>🟢 Email marketing. <br>🟢 Análisis y reportes.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header d-flex justify-content-center">
+                                <img src="./img/icono-desarrollo.png" alt="" class="w-50">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Desarrollo</h5>
+                              <p class="card-text">Ofrecemos diseños profesionales más desarrollo de canales digitales para promocionar correctamente sus productos y servicios:</p>
+                              <p>🟢Diseño y desarrollo de páginas web<br> 🟢Ecommerce con Mercadopago o Paypal<br> 🟢Landing Pages<br> 🟢Outsourcing para agencias de publicidad</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header d-flex justify-content-center">
+                                <img src="./img/icono-hosting.png" alt="" class="w-50">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold text-center">Hosting</h5>
+                              <p class="card-text">Brindamos un exelente servicio de hosting y más:</p>
+                              <p>🟢Base de datos ilimitados.<br>
+                                🟢cPanel, PHP y MySQL.<br>
+                                🟢Backups mensuales.<br>
+                                🟢Soporte técnico personalizado.
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
         </div>
-        
     </main>
 
-    <section class="separador-home">
-        
-    </section>
-
-    <section class="nosotros-home" id="nosotros">
-        <div class="container">
-            <h1>Sobre nosotros</h1>
-            <ul class="lista-nosotros">
-                <li class="item-nosotros">
-                    <img src="./img/icono-mision.png" alt="">
-                    <h2>Misión</h2>
-                    <p>Somos una consultora destinada al "Desarrollo Web" para ayudar a que las empresas se impulsen al mundo del Internet, a través de una tecnología eficaz, confiable y de alta calidad.</p>
-                </li>
-                <li class="item-nosotros">
-                    <img src="./img/icono-vision.png" alt="">
-                    <h2>Visión</h2>
-                    <p>Queremos ser la principal opción de innovación tecnológica del país, adaptándonos a los cambios del mercado, a las altas demandas y las necesidades de nuestros clientes.</p>
-                </li>
-            </ul>
+    <section>
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-between">
+                <div class="col d-flex align-items-center">
+                    
+                    <img src="./img/mision.jpg" alt="" class="imgNos">
+                   
+                    <div>
+                        <h2 class="fw-bold">Nuestra misión</h2>
+                        <p>Somos una consultora destinada al "Desarrollo Web" para ayudar a que las empresas se impulsen al mundo del Internet, a través de una tecnología eficaz, confiable y de alta calidad</p>
+                    </div>
+                    
+                </div>
+                <div class="col d-flex align-items-center">
+                    
+                    <img src="./img/vision.jpg" alt="" class="imgNos">
+                    
+                    <div>
+                        <h2 class="fw-bold">Nuestra visión</h2>
+                        <p>Queremos ser la principal opción de innovación tecnológica del país, adaptándonos a los cambios del mercado, a las altas demandas y las necesidades de nuestros clientes.</p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -144,7 +173,7 @@
         <div class="container">
             <div class="contenido-perfiles">
                 <h1>¿Quienes somos?</h1>
-                <ul class="lista-perfiles">
+                <ul class="lista-perfiles d-flex justify-content-between">
                     <li class="items-perfiles">
                         <h2>Julián García</h2>
                         <p>CEO & Co-Fundador</p>
@@ -174,7 +203,7 @@
                                 <img src="./img/icono-wpp.png" alt="">
                             </li>
                         </ul>
-                        
+                            
                     </li>
                     <li class="items-perfiles">
                         <h2>Lucas Ercoli</h2>
@@ -190,7 +219,7 @@
                                 <img src="./img/icono-wpp.png" alt="">
                             </li>
                         </ul>
-                        
+                            
                     </li>
                     <li class="items-perfiles">
                         <h2>Melina Larramendy</h2>
@@ -206,48 +235,94 @@
                                 <img src="./img/icono-wpp.png" alt="">
                             </li>
                         </ul>
-                        
+                            
                     </li>
+                    
                 </ul>
             </div>
         </div> 
-        
-        
     </section>
 
-    <section class="contacto" id="conctacto">
-        <div class="container">
-            <div class="titulo-contacto">
-                <h1>Contactanos</h1>
-            </div>
+    <section>
+        <div class="container py-5">
+            <h1 class="text-center fw-bold pb-3">Contactanos</h1>
+            <div class="d-flex justify-content-center">
+                <form class="w-75">
+                    <div class="row ">
+                        <div class="col">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"> 
+                        </div>
 
-            <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" class="input-general">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" class="input-general">
-                <label for="tel">Telefono</label>
-                <input type="tel" id="tel" class="input-general">
-                <label class="checkbox">
-                    <input type="checkbox" checked>
-                    "¿Te gustaría recibir novedades <br> de JALM it?" 
-                </label>
-                <input type="submit" value="Enviar" class="enviar">
-            </form>
+                        <div class="col">
+                            <input type="text" id="apellido" class="form-control " placeholder="Apellido">
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="row pt-2">
+                        <div class="col">
+                            <input type="email" class="form-control" id="correo" placeholder="Correo"> 
+                        </div>
+
+                        <div class="col">
+                            <input type="tel" id="tel" class="form-control " placeholder="Teléfono">
+                        </div>
+                    
+                    
+                    </div>
+
+                    <div class="my-3">
+                        <textarea id="mensaje" class="form-control" rows="3" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                        <div class="form-text">Recordá incluir un título para tu problemática.</div>
+                    </div>
+
+                    <label class="checkbox">
+                        <input type="checkbox" checked>
+                        "¿Te gustaría recibir novedades de JALM it?" 
+                    </label>
+                    <button type="button" class="btn btn-success mt-3 w-100 boton-form">Enviar</button>
+
+                </form>
+            </div>
+            
         </div>
-        
+
         
     </section>
 
     <footer>
-        <a href="https://melinalarramendy.github.io/JALMit/"><img src="./img/logoFooter.png" alt=""></a>
-        <nav class="menu-footer">
-            <a href="https://melinalarramendy.github.io/JALMit/" class="menu-items">Home</a>
-            <a href="#servicios" class="menu-items">Servicios</a>
-            <a href="#nosotros" class="menu-items">Nosotros</a>  
-            <a href="#contacto" class="menu-items">Contacto</a>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+
+            <div class="container ">
+                
+                <a class="navbar-brand text-white" href="#">
+                    <img src="./img/logoFooter.png" alt="Logo" width="150" class="d-inline-block">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+              
         </nav>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
